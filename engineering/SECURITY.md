@@ -13,6 +13,8 @@ It describes only behavior implemented in the public repository.
 
 It does not claim formal security certification, compliance certification, enterprise access control, hosted production security controls, encryption at rest, secrets vault integration, or audit infrastructure.
 
+MAI Inspector v1.0.0 defines explicit operational, credential, privacy, and network boundaries. These controls support responsible prototype use but do not constitute security certification, regulatory compliance, or production infrastructure assurance.
+
 ## Security Boundary
 
 MAI Inspector v1.0.0 is a local CLI-based prototype.
@@ -96,6 +98,12 @@ Local analysis outputs may include:
 
 These files are written to the chosen output directory.
 
+When `--session` is used, the structured session is copied into the output directory as `session_input.json`.
+
+When `--project-folder` is used, `evidence_pack.md` may contain extracted text excerpts from source documents, and `inventory.json` records file metadata and excerpts. Reports may also include claims, gates, required evidence, source references, and other structured content derived from the session or evidence pack.
+
+CLI status messages are limited to paths, completion messages, explicit guardrail failures, and external-send confirmation prompts. External API error handling can surface provider error details when optional LLM calls fail.
+
 The `.gitignore` excludes common local output folders, but operators remain responsible for reviewing generated artifacts before sharing, committing, uploading, or publishing them.
 
 The official demo video is not stored in the Git repository. It is distributed as a GitHub Release asset.
@@ -142,6 +150,10 @@ Network calls are implemented in `agent/llm_client.py` for optional LLM-assisted
 
 - OpenAI Responses API;
 - Anthropic Messages API.
+
+The CLI path that can initiate those calls is project-folder session drafting with `--use-llm` or the deprecated `--use-openai`, after the send guardrails described above are satisfied.
+
+The deterministic `--session` evaluation path does not call `agent/llm_client.py` and does not make an external model request.
 
 Those calls use `urllib.request` and runtime API keys.
 
@@ -220,3 +232,12 @@ Security-relevant implementation anchors:
 - [../agent/sanitizer.py](../agent/sanitizer.py)
 - [../agent/engine_runner.py](../agent/engine_runner.py)
 - [../sample_data/buildweek_investment_review_session.json](../sample_data/buildweek_investment_review_session.json)
+
+Verified boundary checks:
+
+- environment handling verified;
+- repository secret scan verified;
+- `.gitignore` boundaries verified;
+- network behavior verified;
+- input and output privacy boundaries verified;
+- unsupported security claims removed.
