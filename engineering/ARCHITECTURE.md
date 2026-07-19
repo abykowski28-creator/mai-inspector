@@ -3,11 +3,16 @@
 **Product:** MAI Inspector
 **Version:** v1.0.0
 **Edition:** OpenAI Build Week Edition
-**Status:** Release Candidate, implementation verified
+**Status:** Final, implementation verified
 
 ## Purpose and Scope
 
 This document describes the implemented public architecture of MAI Inspector v1.0.0.
+
+Release reference:
+
+- `v1.0.0` points to the initial public release commit.
+- `main` may include post-release documentation updates, including public demo links.
 
 MAI Inspector is a local CLI-based decision intelligence prototype. It evaluates whether a Structured Assessment Session supports a Proposed Decision and writes deterministic assessment outputs.
 
