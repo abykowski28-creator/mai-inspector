@@ -35,11 +35,7 @@ The verified command is:
 python -m unittest discover -s tests -v
 ```
 
-In the local release verification environment, this was executed with the clean virtual-environment Python interpreter:
-
-```powershell
-C:\Users\abyko\AppData\Local\Temp\mai-inspector-release-venv\Scripts\python.exe -m unittest discover -s tests -v
-```
+In the local release verification environment, this was also executed with a clean virtual-environment Python interpreter.
 
 ## Verified Result
 

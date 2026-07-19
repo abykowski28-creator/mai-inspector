@@ -1,161 +1,126 @@
 # Public Release Gate Report
 
-Decision: NO-GO for final public submission pending public demo URL/release asset
+**Release:** MAI Inspector v1.0.0 - OpenAI Build Week Edition
+**Release Gate:** GO
+**Date:** 2026-07-19
 
-Date: 2026-07-19
-Release candidate: MAI Inspector v1.0.0 - OpenAI Build Week Edition
-
-The local public release candidate passes the code, packaging, privacy, reproducibility, test, and CLI checks.
-
-The final public submission is not yet GO because the final approved demo video is not stored in Git and still needs a public URL or GitHub Release asset URL.
-
-## A. Repository Scope
-
-Pass.
-
-A standalone `mai-inspector` repository was created on the `main` branch with no copied Git history.
-
-## B. Public Package Contents
-
-Pass.
-
-Included public package areas:
-
-- `README.md`
-- `LICENSE`
-- `CHANGELOG.md`
-- `pyproject.toml`
-- `requirements.txt`
-- `.gitignore`
-- `agent/`
-- `tests/`
-- `docs/`
-- `demo/`
-- `buildweek/`
-- `examples/`
-- `sample_data/`
-- `engineering/`
-
-## C. Exclusion Check
-
-Pass.
-
-No forbidden generated folders, legacy outputs, raw intake folders, large source media, office documents, `.env`, cache folders, or review artifacts are present in the release candidate tree.
-
-## D. License Check
-
-Pass.
-
-`LICENSE` contains the required proprietary notice:
+## Release Baseline
 
 ```text
-Copyright © 2026 EnergeticaX Institute Limited.
-All rights reserved.
+Release tag: v1.0.0 -> 82b78faf4ea0b584dd185c660c4616e4daf21c52
+Documentation baseline: main -> origin/main at final gate execution
 ```
 
-No permissive open-source license text was added.
+The release tag remains the initial public release commit.
 
-## E. Sensitive-Value Scan
+The `main` branch contains post-release documentation updates, public demo links, and finalized engineering notes.
 
-Pass with reviewed false positives.
+The final gate verified that `agent`, `tests`, `sample_data`, and `examples` were not changed after the `v1.0.0` release tag.
 
-Hits are limited to blank environment-variable names in `.env.example`, expected environment-variable reads in `agent/llm_client.py`, and API notes explaining configuration. No key values or credentials were found.
+## Public Assets
 
-## F. Local Path And Personal Marker Scan
+- Public repository: [https://github.com/abykowski28-creator/mai-inspector](https://github.com/abykowski28-creator/mai-inspector)
+- GitHub Release: [https://github.com/abykowski28-creator/mai-inspector/releases/tag/v1.0.0](https://github.com/abykowski28-creator/mai-inspector/releases/tag/v1.0.0)
+- Official demo video: [https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4](https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4)
 
-Pass.
+The official demo video is distributed as a GitHub Release asset and is not stored directly in Git.
 
-Result: 0 local path hits and 0 personal path markers.
+## Verification Summary
 
-## G. Named-Party Scan
+| Gate | Result |
+| --- | --- |
+| SHA and clean-tree verification | Pass |
+| Post-release implementation diff boundary | Pass |
+| Automated tests | Pass |
+| Public sample execution | Pass |
+| Five executive outputs | Pass |
+| Markdown relative links | Pass |
+| Public repository URL | Pass |
+| GitHub Release URL | Pass |
+| Official demo video URL | Pass |
+| Secret and credential scan | Pass with reviewed false positives |
+| Privacy and local-path scan | Pass |
+| Placeholder and terminology scan | Pass |
+| Large/private tracked file scan | Pass |
 
-Pass.
+## Test Result
 
-Result: 0 named-party hits from the legacy evaluation material.
+Verified command:
 
-## H. Markdown Link Check
-
-Pass.
-
-Relative Markdown links checked: 71.
-Broken relative Markdown links: 0.
-
-## I. Large File And Video Check
-
-Pass.
-
-No video file is present in Git. `demo/README.md` documents the official demo package and release-asset boundary.
-No file larger than 10 MB is present.
-The demo thumbnail is approximately 6.68 MB and remains within the lightweight asset threshold.
-
-## J. Clean Installation Check
-
-Pass.
-
-A clean virtual environment installed the release candidate successfully:
-
-```text
-pip install -r requirements.txt
-pip install -e .
-import_smoke_ok
+```powershell
+python -m unittest discover -s tests -v
 ```
 
-## K. Test Check
-
-Pass.
+Verified result:
 
 ```text
-Ran 45 tests in 0.199s
+Ran 45 tests
 OK
 ```
 
-The suite includes a regression test confirming that a catastrophic structured session can reach the documented `NO-GO` outcome.
+## Public Sample Result
 
-## L. CLI Public Sample Check
-
-Pass.
-
-The public sample case runs successfully through the CLI and produces the required executive outputs:
-
-```json
-{
-  "decision_status": "Not Yet",
-  "highest_responsible_commitment": "Structured Due Diligence",
-  "critical_blockers": [
-    "Structured Due Diligence remains open."
-  ],
-  "required_evidence": [
-    "Independent technical validation; verified financial information; commercial and operational evidence."
-  ],
-  "recommended_next_step": "Proceed with Structured Due Diligence before considering a higher commitment."
-}
-```
-
-## M. README Reviewer Path
-
-Pass.
-
-The README opens with the Build Week product story, links to the demo package, explains the architecture, shows how to run the sample, points to tests, and exposes the Build Week materials.
-
-## N. Demo Availability
-
-Pending.
-
-The final approved demo video is documented but intentionally excluded from Git. `demo/README.md` contains the release-asset/public-URL placeholder. This must be replaced with a working public URL or GitHub Release asset URL before the final submission form is sent.
-
-## O. Git And Release State
-
-Pass for local release candidate.
-
-Local Git author identity is configured and the release commit/tag are part of the release step:
+Verified sample:
 
 ```text
-git commit -m "Initial public release: MAI Inspector v1.0.0 OpenAI Build Week Edition"
-git tag -a v1.0.0 -m "MAI Inspector v1.0.0 - OpenAI Build Week Edition"
+sample_data/buildweek_investment_review_session.json
 ```
 
-## Final Decision
+Verified substantive result:
 
-NO-GO for final public submission until the demo URL/release asset is completed and the public GitHub repository URL is verified.
+```text
+Score: 61
+Outcome: CONDITIONAL GO
+Decision Status: Not Yet
+Highest Responsible Commitment: Structured Due Diligence
+Critical Blockers: Structured Due Diligence remains open.
+Required Evidence: Independent technical validation; verified financial information; commercial and operational evidence.
+Recommended Next Step: Proceed with Structured Due Diligence before considering a higher commitment.
+```
 
-GO for local public release candidate content and local Git release state.
+Verified provenance fields:
+
+- `generated_at`
+- `agent_version`
+- `engine_version`
+- `engine_file`
+- `engine_source`
+- `engine_sha256`
+- `git_commit`
+- `input_session_sha256`
+
+## Link Verification
+
+Relative Markdown links:
+
+```text
+Markdown files checked: 26
+Broken relative links: 0
+```
+
+Public URL verification:
+
+```text
+Repository URL: 200 OK
+Release URL: 200 OK
+Official demo video: 200 OK
+Official demo video size: 93,961,740 bytes
+```
+
+## Scan Notes
+
+Secret scan findings were reviewed. Matches were false positives from ordinary words containing `sk-` and code templates such as `Bearer {api_key}`. No committed credential values were found.
+
+The final privacy and local-path scan reported no blocking local filesystem paths or private source material in public documentation.
+
+Large/private tracked file scan found no tracked videos, Office documents, PDFs, or files larger than the release threshold.
+
+## Decision
+
+```text
+Release Gate: GO
+Blocking findings: None
+```
+
+MAI Inspector v1.0.0 - OpenAI Build Week Edition is ready for final submission form completion.
+

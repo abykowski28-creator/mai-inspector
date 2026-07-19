@@ -25,7 +25,7 @@ Submission Ready
 - Critical Blockers, Required Evidence, and Recommended Next Step are visible for approximately 10 seconds.
 - Final brand screen is visible for approximately 3 seconds.
 - All five executive outputs are readable without sound.
-- The incorrect term `Meaning Intelligence` has been removed.
+- Legacy terminology has been removed.
 - Final positioning is correct:
 
 ```text

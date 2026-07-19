@@ -3,7 +3,7 @@
 **Product:** MAI Inspector
 **Version:** v1.0.0
 **Edition:** OpenAI Build Week Edition
-**Status:** Release Candidate
+**Status:** Final
 
 ## Purpose
 
