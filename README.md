@@ -49,17 +49,17 @@ MAI Inspector evaluates the relationship between the proposed decision, the avai
 
 ## Watch the Official Demo
 
-The official Build Week demo is intentionally not stored in this Git repository because the approved export is approximately 94 MB.
+The official Build Week submission demo is hosted on YouTube and is intentionally not stored in this Git repository.
 
 Demo package:
 
-- [Watch official demo video](https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4)
+- [Watch official demo video on YouTube](https://youtu.be/P0FDph_TqGA)
 - [GitHub Release v1.0.0](https://github.com/abykowski28-creator/mai-inspector/releases/tag/v1.0.0)
 - [Demo README and video release notes](demo/README.md)
 - [Official production script](demo/Demo_Script.md)
 - [Demo thumbnail](demo/thumbnail.jpg)
 
-**Duration:** 2:09
+**Duration:** 2:32
 **Format:** 1920 x 1080, H.264
 **Version:** MAI Inspector v1.0.0 - OpenAI Build Week Edition
 

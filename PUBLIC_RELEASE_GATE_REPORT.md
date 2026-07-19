@@ -21,9 +21,10 @@ The final gate verified that `agent`, `tests`, `sample_data`, and `examples` wer
 
 - Public repository: [https://github.com/abykowski28-creator/mai-inspector](https://github.com/abykowski28-creator/mai-inspector)
 - GitHub Release: [https://github.com/abykowski28-creator/mai-inspector/releases/tag/v1.0.0](https://github.com/abykowski28-creator/mai-inspector/releases/tag/v1.0.0)
-- Official demo video: [https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4](https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4)
+- Official submission demo video: [https://youtu.be/P0FDph_TqGA](https://youtu.be/P0FDph_TqGA)
+- Archived GitHub Release demo asset: [https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4](https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4)
 
-The official demo video is distributed as a GitHub Release asset and is not stored directly in Git.
+The official submission video is hosted on YouTube. Video files are not stored directly in Git.
 
 ## Verification Summary
 
@@ -37,7 +38,7 @@ The official demo video is distributed as a GitHub Release asset and is not stor
 | Markdown relative links | Pass |
 | Public repository URL | Pass |
 | GitHub Release URL | Pass |
-| Official demo video URL | Pass |
+| Official submission demo video URL | Pass |
 | Secret and credential scan | Pass with reviewed false positives |
 | Privacy and local-path scan | Pass |
 | Placeholder and terminology scan | Pass |
@@ -103,8 +104,8 @@ Public URL verification:
 ```text
 Repository URL: 200 OK
 Release URL: 200 OK
-Official demo video: 200 OK
-Official demo video size: 93,961,740 bytes
+Official submission demo video: 200 OK
+Archived GitHub Release demo asset size: 93,961,740 bytes
 ```
 
 ## Scan Notes

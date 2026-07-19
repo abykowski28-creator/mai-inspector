@@ -9,7 +9,7 @@ Date: 2026-07-19
 File:
 
 ```text
-MAI Inspector - Official Build Week Demo v2.0
+MAI Inspector - Official Build Week Demo v2.1 YouTube submission export
 ```
 
 Final verdict:
@@ -26,6 +26,7 @@ Submission Ready
 - Final brand screen is visible for approximately 3 seconds.
 - All five executive outputs are readable without sound.
 - Legacy terminology has been removed.
+- Codex and GPT-5.6 are explicitly mentioned in the submission video.
 - Final positioning is correct:
 
 ```text
@@ -36,12 +37,12 @@ From Document Intelligence to Decision Intelligence
 
 ## Technical Video Parameters
 
-- Duration: approximately 2:09.685
+- Duration: approximately 2:32
 - Resolution: 1920 x 1080
 - Codec: H.264
 - Frame rate: 25 fps
 - Bitrate: approximately 5.8 Mbps
-- File size: approximately 94 MB
+- File size of local YouTube upload source: approximately 111 MB
 - Audio: balanced, no overload
 - Average audio level: approximately -19.5 dB
 - Audio peak: approximately -4.4 dB
@@ -71,7 +72,7 @@ It establishes the highest responsible level of commitment supported by the evid
 
 Before sending the final Build Week submission:
 
-- Final video link is public: [official demo video](https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4).
+- Final YouTube video link is public: [official demo video](https://youtu.be/P0FDph_TqGA).
 - GitHub repository is public: [abykowski28-creator/mai-inspector](https://github.com/abykowski28-creator/mai-inspector).
 - Confirm the GitHub README opens with the MAI Inspector Build Week pitch.
 - Confirm the submission form uses the same product name and tagline:

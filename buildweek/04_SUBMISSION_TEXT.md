@@ -321,7 +321,7 @@ These are future directions and are not presented as capabilities of the current
 ## 19. Links
 
 - Public Repository: [https://github.com/abykowski28-creator/mai-inspector](https://github.com/abykowski28-creator/mai-inspector)
-- Official Demo Video: [https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4](https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4)
+- Official Demo Video: [https://youtu.be/P0FDph_TqGA](https://youtu.be/P0FDph_TqGA)
 - GitHub Release: [https://github.com/abykowski28-creator/mai-inspector/releases/tag/v1.0.0](https://github.com/abykowski28-creator/mai-inspector/releases/tag/v1.0.0)
 - One-Page Pitch: [01_One_Page_Pitch.md](01_One_Page_Pitch.md)
 - Technical Overview: [03_TECHNICAL_OVERVIEW.md](03_TECHNICAL_OVERVIEW.md)
@@ -344,7 +344,7 @@ https://github.com/abykowski28-creator/mai-inspector
 
 ### Official Demo Video
 
-https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4
+https://youtu.be/P0FDph_TqGA
 
 ### GitHub Release
 

@@ -1,20 +1,20 @@
 # MAI Inspector - Official Build Week Demo
 
 **Product Version:** v1.0.0
-**Demo Version:** v2.0
+**Demo Version:** v2.1
 **Edition:** OpenAI Build Week Edition
 **Status:** Final
 
 ## Watch the Demo
 
-The official demo video is distributed as a GitHub Release asset attached to `v1.0.0`.
+The official Build Week submission demo is hosted on YouTube. The GitHub Release keeps the source-code release and archived release assets attached to `v1.0.0`.
 
-- [Watch official demo video](https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4)
+- [Watch official demo video on YouTube](https://youtu.be/P0FDph_TqGA)
 - [GitHub Release v1.0.0](https://github.com/abykowski28-creator/mai-inspector/releases/tag/v1.0.0)
 
-It is not stored directly in this Git repository because the approved export is approximately 94 MB.
+It is not stored directly in this Git repository because video files are distributed outside source control.
 
-**Duration:** 2:09
+**Duration:** 2:32
 **Resolution:** 1920 x 1080
 **Video Codec:** H.264
 **Frame Rate:** 25 fps

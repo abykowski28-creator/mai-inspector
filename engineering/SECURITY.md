@@ -106,7 +106,7 @@ CLI status messages are limited to paths, completion messages, explicit guardrai
 
 The `.gitignore` excludes common local output folders, but operators remain responsible for reviewing generated artifacts before sharing, committing, uploading, or publishing them.
 
-The official demo video is not stored in the Git repository. It is distributed as a GitHub Release asset.
+The official submission video is not stored in the Git repository. It is hosted outside source control.
 
 ## Privacy Guardrails
 
