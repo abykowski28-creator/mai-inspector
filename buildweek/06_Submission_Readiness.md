@@ -71,8 +71,8 @@ It establishes the highest responsible level of commitment supported by the evid
 
 Before sending the final Build Week submission:
 
-- Confirm the final video link is public or accessible to OpenAI reviewers.
-- Confirm the GitHub repository is public or accessible to OpenAI reviewers.
+- Final video link is public: [official demo video](https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4).
+- GitHub repository is public: [abykowski28-creator/mai-inspector](https://github.com/abykowski28-creator/mai-inspector).
 - Confirm the GitHub README opens with the MAI Inspector Build Week pitch.
 - Confirm the submission form uses the same product name and tagline:
 
@@ -94,7 +94,7 @@ Do not continue editing the video unless a submission platform requirement fails
 
 The next workstream is distribution and submission:
 
-- video hosting
-- repository access
+- video hosting: complete
+- repository access: complete
 - final submission form
 - final link QA

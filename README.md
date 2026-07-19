@@ -53,6 +53,8 @@ The official Build Week demo is intentionally not stored in this Git repository 
 
 Demo package:
 
+- [Watch official demo video](https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4)
+- [GitHub Release v1.0.0](https://github.com/abykowski28-creator/mai-inspector/releases/tag/v1.0.0)
 - [Demo README and video release notes](demo/README.md)
 - [Official production script](demo/Demo_Script.md)
 - [Demo thumbnail](demo/thumbnail.jpg)

@@ -2,7 +2,7 @@
 
 **Product Version:** v1.0.0
 **Release:** OpenAI Build Week Edition
-**Submission Status:** Release Candidate, pending public repository and demo URL verification
+**Submission Status:** Final public release
 **Organization:** EnergeticaX Institute Limited
 
 ## 1. Project Name
@@ -320,10 +320,9 @@ These are future directions and are not presented as capabilities of the current
 
 ## 19. Links
 
-The final public URLs must be inserted after GitHub publication and video release-asset creation.
-
-- Public Repository: pending public GitHub URL
-- Official Demo: pending GitHub Release asset or public hosted video URL
+- Public Repository: [https://github.com/abykowski28-creator/mai-inspector](https://github.com/abykowski28-creator/mai-inspector)
+- Official Demo Video: [https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4](https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4)
+- GitHub Release: [https://github.com/abykowski28-creator/mai-inspector/releases/tag/v1.0.0](https://github.com/abykowski28-creator/mai-inspector/releases/tag/v1.0.0)
 - One-Page Pitch: [01_One_Page_Pitch.md](01_One_Page_Pitch.md)
 - Technical Overview: [03_TECHNICAL_OVERVIEW.md](03_TECHNICAL_OVERVIEW.md)
 - Why OpenAI: [02_WHY_OPENAI.md](02_WHY_OPENAI.md)
@@ -338,6 +337,18 @@ MAI Inspector
 ### Tagline
 
 Decision Intelligence for High-Stakes Decisions
+
+### Public Repository
+
+https://github.com/abykowski28-creator/mai-inspector
+
+### Official Demo Video
+
+https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4
+
+### GitHub Release
+
+https://github.com/abykowski28-creator/mai-inspector/releases/tag/v1.0.0
 
 ### One-Sentence Description
 

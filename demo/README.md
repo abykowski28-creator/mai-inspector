@@ -3,18 +3,16 @@
 **Product Version:** v1.0.0
 **Demo Version:** v2.0
 **Edition:** OpenAI Build Week Edition
-**Status:** Final content, pending public video URL or GitHub Release asset
+**Status:** Final
 
 ## Watch the Demo
 
-The official demo video is distributed through the public release or an external public video link.
+The official demo video is distributed as a GitHub Release asset attached to `v1.0.0`.
+
+- [Watch official demo video](https://github.com/abykowski28-creator/mai-inspector/releases/download/v1.0.0/MAI_Inspector_Official_Build_Week_Demo_v2.0_1080p.mp4)
+- [GitHub Release v1.0.0](https://github.com/abykowski28-creator/mai-inspector/releases/tag/v1.0.0)
 
 It is not stored directly in this Git repository because the approved export is approximately 94 MB.
-
-Before final submission, publish the video as one of the following:
-
-- a GitHub Release asset attached to `v1.0.0`; or
-- an external public video link accessible without authorization.
 
 **Duration:** 2:09
 **Resolution:** 1920 x 1080
