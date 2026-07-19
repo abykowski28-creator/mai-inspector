@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Test and local release outputs
+.pytest_cache/
+.release_check/
+outputs/
+intake/
+learning/
+.codex_review/
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Large media and private project material
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.docx
+*.xlsx
+*.pdf
+!demo/thumbnail.jpg
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

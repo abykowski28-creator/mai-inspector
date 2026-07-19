@@ -1,0 +1,110 @@
+{
+  "session_id": "mai-inspector-buildweek-sample",
+  "session_date": "2026-07-19",
+  "decision_brief": {
+    "decision": "Should we proceed with an investment commitment based on the current evidence package?",
+    "current_status": "Initial evidence review completed.",
+    "next_decision_required": "Decide whether the evidence supports investment commitment or a lower responsible commitment."
+  },
+  "thesis_strength": "moderate",
+  "critical_breakpoint_proximity": "medium",
+  "system_map": {
+    "components": [
+      {
+        "component": "Technical validation",
+        "criticality": "critical",
+        "status": "pending",
+        "risk_level": "high"
+      },
+      {
+        "component": "Financial verification",
+        "criticality": "important",
+        "status": "pending",
+        "risk_level": "medium"
+      }
+    ],
+    "critical_assumptions": [
+      {
+        "assumption": "The technology can perform under operating conditions described by the company.",
+        "status": "unverified",
+        "criticality": "critical"
+      },
+      {
+        "assumption": "Commercial demand is supported by verified counterparties.",
+        "status": "conditional",
+        "criticality": "high"
+      }
+    ]
+  },
+  "domain_analysis": [
+    {
+      "domain": "technical",
+      "instability_level": "high"
+    },
+    {
+      "domain": "commercial",
+      "instability_level": "medium"
+    }
+  ],
+  "semantic_risks": [
+    {
+      "risk": "Commercial traction is described with broad language but limited verification.",
+      "severity": "high"
+    }
+  ],
+  "claim_register": [
+    {
+      "claim": "The product is technically ready for deployment.",
+      "status": "unverified",
+      "importance": "critical",
+      "source": "Technical Report.pdf"
+    },
+    {
+      "claim": "The financial model supports the proposed investment case.",
+      "status": "conditional",
+      "importance": "high",
+      "source": "Financial Model.xlsx"
+    }
+  ],
+  "stress_scenarios": [
+    {
+      "scenario": "Independent testing reveals lower-than-claimed performance.",
+      "system_impact": "severe"
+    }
+  ],
+  "deviations": [
+    {
+      "deviation": "Independent technical validation missing",
+      "severity": "high",
+      "likelihood": "high",
+      "domain": "technical",
+      "affected_node": "technical_validation",
+      "execution_window": "due_diligence",
+      "fixable": "Yes"
+    },
+    {
+      "deviation": "Financial verification incomplete",
+      "severity": "medium",
+      "likelihood": "high",
+      "domain": "financial",
+      "affected_node": "financial_verification",
+      "execution_window": "due_diligence",
+      "fixable": "Yes"
+    }
+  ],
+  "critical_breakpoint": "Investment commitment should not be made before independent technical validation and financial verification are complete.",
+  "failure_mechanisms": [
+    "Evidence insufficiency",
+    "Claim verification gap",
+    "Commitment boundary mismatch"
+  ],
+  "decision_gates": [
+    {
+      "gate": "Structured Due Diligence",
+      "required_evidence": "Independent technical validation; verified financial information; commercial and operational evidence.",
+      "owner": "Investment team",
+      "status": "open",
+      "criticality": "critical"
+    }
+  ]
+}

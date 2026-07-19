@@ -1,0 +1,7 @@
+# Runtime dependencies for the deterministic public sample: none beyond Python standard library.
+
+# Optional local document extraction extras:
+# openpyxl>=3.1.0  # XLSX extraction
+# pypdf>=4.0.0     # PDF extraction
+
+# OpenAI/Anthropic calls use Python stdlib urllib in this release.
