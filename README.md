@@ -251,7 +251,7 @@ The public example reproduces the investment assessment presented in the officia
 After the public GitHub repository is created, clone it with:
 
 ```bash
-git clone https://github.com/AlexanderBykovski/mai-inspector.git
+git clone https://github.com/abykowski28-creator/mai-inspector.git
 cd mai-inspector
 ```
 
